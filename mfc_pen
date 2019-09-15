@@ -1,0 +1,18 @@
+void CPenAppDlg::OnMouseMove(UINT nFlags, CPoint point)
+{
+	if (nFlags == MK_LBUTTON) {
+		CClientDC cd(this);
+		CPen pen(PS_SOLID, 16, RGB(0, 255, 0));
+		cd.SelectObject(&pen);
+		cd.MoveTo(pnt);
+		cd.LineTo(point);
+	}
+	else if (nFlags == MK_RBUTTON) {
+		CClientDC cd(this);
+
+	}
+
+	pnt = point;
+
+	CDialogEx::OnMouseMove(nFlags, point);
+}
