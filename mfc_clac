@@ -1,0 +1,15 @@
+void Cclaclater2Dlg::OnBnClickedButton1()
+{
+	UpdateData(true);
+	m_C3 = m_C2 + m_C1;
+	UpdateData(false);
+}
+
+
+void Cclaclater2Dlg::OnBnClickedD2()
+{
+	int a = GetDlgItemInt(IDC_C1);
+	int b = GetDlgItemInt(IDC_C2);
+	int c = a+b;
+	SetDlgItemInt(IDC_C3, c);
+}
