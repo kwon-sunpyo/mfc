@@ -3,6 +3,9 @@
 ### 값입력창은 옆의 도구상자의 edit control을 드래그해서 원하는 위치에 놓으면 됩니다.(1)
 ### 버튼을 추가하고 싶으면 도구상자의 button을 드래그해서 원하는 위치에 놓으면 됩니다.(2)
 ![image](https://user-images.githubusercontent.com/54826097/64939659-b08c6700-d89c-11e9-96ff-95e754611302.png)
+### 버튼에 나오는 문자를 바꾸고 싶다면 오른쪽아래의 [속성] 에서 밑을 내려보면 caption이라고 나오부분이있습니다.
+### 그부분을 원하는 대로 바꾸어 주시면 됩니다.
+![image](https://user-images.githubusercontent.com/54826097/64939962-a0c15280-d89d-11e9-8619-a141d1eab6eb.png)
 ### 그리고 값 입력창에 변수 이름을 설정해주어야합니다. 변수 설정방법은 변수를 설정하고 싶은 곳에
 ### 우클릭 후 변수추가를 누른뒤 
 ![image](https://user-images.githubusercontent.com/54826097/64939136-28f22880-d89b-11e9-911a-174f0dd47eaf.png)
